@@ -1,76 +1,63 @@
-# 🏠 Airbnb Bookings Analysis – Exploratory Data Analysis (EDA)
+# AirBnb Bookings Analysis — Exploratory Data Analysis (EDA)
 
-## 📌 Project Type
-Exploratory Data Analysis (EDA)  
-📍 Individual Project | 👨‍💻 Author: Vishal Londhekar | 📧 v.londhekar2003@gmail.com
+Short exploratory data analysis of Airbnb bookings focused on pricing, seasonality, and listing characteristics.
 
----
+**Repository summary**
+- **Purpose:** Explore and visualize Airbnb booking data to surface insights for hosts and analysts.
+- **Author:** Vishal Londhekar — v.londhekar2003@gmail.com
 
-## 🧠 Objective
-To explore Airbnb booking data in depth and uncover insights about:
-- 💰 Pricing strategies
-- 🧑‍💼 Customer behavior
-- 🌞 Seasonal trends
-- 📈 Impact of external features on bookings
+## Dataset
+- `Airbnb NYC 2019.csv` — primary dataset used for the analysis (NYC listings and booking-related features).
 
----
+## Contents
+- `AirBnb_Bookings_Analysis_Exploratory_Data_Analysis (1).ipynb` — main Jupyter Notebook with cleaning, EDA, and visualizations.
+- `Airbnb NYC 2019.csv` — dataset used by the notebook.
+- `README.md` — this file.
 
-## 📂 Dataset Overview
-- Source: [Inside Airbnb – Open Data](http://insideairbnb.com/get-the-data/)
-- Size: 48,000+ listings from major cities (New York, LA, SF, Boston)
-- Features:
-  - `price`, `minimum_nights`, `reviews`, `neighbourhood`, `room_type`, `availability_365`, etc.
+## Dependencies
+Recommended Python environment (Python 3.8+). Key packages:
 
----
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
 
-## 🧰 Tools & Technologies
-- Python
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Jupyter Notebook
+Install with pip:
 
----
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
 
-## 🔍 Key Analyses Performed
-1. **Data Cleaning**
-   - Removed duplicates, fixed incorrect data types
-   - Handled outliers (especially in price & minimum nights)
+Or create a `requirements.txt` with the above packages and run:
 
-2. **Exploratory Data Analysis**
-   - Distribution of listings by room type and city
-   - Price variation across neighborhoods and seasons
-   - Relationship between number of reviews and popularity
-   - Availability patterns (weekend vs weekday trends)
+```bash
+pip install -r requirements.txt
+```
 
-3. **Visualization Highlights**
-   - 📊 Histograms of price and availability
-   - 🌐 Heatmaps of location-wise demand
-   - 📅 Time-based trend analysis
+## Quickstart — Open the Notebook
+1. Open a terminal in the repository directory.
+2. Start Jupyter Lab or Notebook:
 
----
+```bash
+jupyter notebook
+```
 
-## 📈 Insights & Recommendations
-- 📍 Entire homes dominate bookings, but private rooms have strong mid-range pricing appeal.
-- 💵 Prices are highest in Manhattan and San Francisco’s central districts.
-- 🗓️ Most bookings peak during summer and fall — suggest promotional pricing in off-seasons.
-- ✨ Listings with 10+ reviews have significantly higher average occupancy.
+3. Open the notebook `AirBnb_Bookings_Analysis_Exploratory_Data_Analysis (1).ipynb` and run cells sequentially.
 
+## What the Notebook Does
+- Loads `Airbnb NYC 2019.csv` and performs basic data cleaning (missing values, types, duplicates).
+- Performs exploratory analysis: distributions, correlations, neighborhood price comparisons, and seasonal trends.
+- Produces visualizations (histograms, boxplots, heatmaps, time trends) with commentary.
 
----
+## Notes & Tips
+- If the dataset is large, consider running heavy visualizations on a sampled subset.
+- Use the notebook's section headings to jump to specific analyses (Data Cleaning → EDA → Visualizations).
 
-## 📍 Business Use Case
-These insights can help:
-- 📈 Airbnb hosts optimize pricing strategies
-- 🗺️ New investors choose profitable locations
-- 🧠 Airbnb improve recommendations based on seasonality and user engagement
+## Contact
+If you have questions or suggestions, reach out to the author at v.londhekar2003@gmail.com.
 
 ---
 
-## 👤 Author
-**Vishal Londhekar**  
-🎓 Certified Data Analyst/Data Scientist | B.Tech in Mechanical Engineering  
-📫 [LinkedIn](https://www.linkedin.com/in/vishal-londhekar)
-
-
-
-
+Enjoy exploring the data! 🚀
