@@ -1,5 +1,7 @@
 # Airbnb Bookings Analysis — Exploratory Data Analysis
 
+> **Data Analyst & Business Intelligence Analyst portfolio project**
+
 A Python exploratory analysis of Airbnb listings in New York City, focused on pricing, neighbourhoods, room types, availability, reviews, and host activity.
 
 ## Project objective
@@ -36,7 +38,17 @@ Python, pandas, NumPy, Matplotlib, Seaborn, and exploratory data analysis techni
 - Host activity and listing concentration
 - Outlier and missing-value inspection
 
-## Limitations
+## Analyst value
+
+> **Portfolio focus:** Marketplace Analytics · Exploratory Data Analysis · Customer and Host Insights
+
+**Stakeholder lens:** Marketplace analysts, hosts, revenue teams, and hospitality operators.
+
+**Skills demonstrated:** Data cleaning, descriptive statistics, missing-value inspection, outlier analysis, segmentation, visualisation, and insight communication.
+
+**Decision support:** Helps identify listing, neighbourhood, room-type, price, review, and availability patterns for further business investigation.
+
+## $1
 
 - The analysis is descriptive and does not establish causal relationships.
 - The dataset is a historical snapshot and does not represent current Airbnb inventory.
