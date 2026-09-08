@@ -38,6 +38,21 @@ Python, pandas, NumPy, Matplotlib, Seaborn, and exploratory data analysis techni
 - Host activity and listing concentration
 - Outlier and missing-value inspection
 
+
+## Business problem and decision
+
+### Business problem
+Marketplace teams and hosts need to understand how price, room type, neighbourhood, reviews, availability, and host activity differ across listings. Manual inspection of thousands of rows makes it difficult to see concentration, outliers, and segments that deserve attention.
+
+### Analyst question
+Which listing and location patterns are associated with price, availability, review activity, and host concentration in the historical dataset?
+
+### Decision supported
+The analysis can help teams prioritise neighbourhood research, form pricing hypotheses, identify listing segments for follow-up, and decide which questions need more complete marketplace data.
+
+### Potential success measure
+A useful analysis should provide repeatable definitions, transparent data-quality checks, and a concise set of insights that can be validated with current marketplace data or experiments.
+
 ## Analyst value
 
 > **Portfolio focus:** Marketplace Analytics · Exploratory Data Analysis · Customer and Host Insights
