@@ -48,7 +48,7 @@ Python, pandas, NumPy, Matplotlib, Seaborn, and exploratory data analysis techni
 
 **Decision support:** Helps identify listing, neighbourhood, room-type, price, review, and availability patterns for further business investigation.
 
-## $1
+## Limitations
 
 - The analysis is descriptive and does not establish causal relationships.
 - The dataset is a historical snapshot and does not represent current Airbnb inventory.
